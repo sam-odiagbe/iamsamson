@@ -31,7 +31,6 @@ html {
       }
 
       div.me {
-        flex: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -119,6 +118,26 @@ html {
           text-decoration: none;
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  div.content {
+    flex-direction: column;
+    .right,
+    .left {
+      flex: 1;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .left {
+      background: #efefef;
+      padding-top: 0;
     }
   }
 }
