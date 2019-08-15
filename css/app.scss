@@ -127,12 +127,10 @@ html {
     flex-direction: column;
     .right,
     .left {
-      flex: 1;
       min-height: 100vh;
       display: flex;
-      padding-bottom: 20px;
+      padding-bottom: 30px;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
     }
 
