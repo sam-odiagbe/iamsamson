@@ -130,6 +130,7 @@ html {
       flex: 1;
       min-height: 100vh;
       display: flex;
+      padding-bottom: 20px;
       flex-direction: column;
       justify-content: center;
       align-items: center;
@@ -138,6 +139,23 @@ html {
     .left {
       background: #efefef;
       padding-top: 0;
+    }
+  }
+
+  .tech-icon {
+    font-size: 3em;
+  }
+
+  .contacts {
+    flex-direction: column;
+    div {
+      width: 50%;
+    }
+  }
+
+  .techs {
+    div {
+      width: 50%;
     }
   }
 }

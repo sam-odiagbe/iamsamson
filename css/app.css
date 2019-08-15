@@ -203,6 +203,7 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-bottom: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -217,6 +218,21 @@ html {
   div.content .left {
     background: #efefef;
     padding-top: 0;
+  }
+  .tech-icon {
+    font-size: 3em;
+  }
+  .contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .contacts div {
+    width: 50%;
+  }
+  .techs div {
+    width: 50%;
   }
 }
 /*# sourceMappingURL=app.css.map */
